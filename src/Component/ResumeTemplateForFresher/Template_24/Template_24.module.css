@@ -1,0 +1,350 @@
+.main {
+  width: 850px;
+  height: 1130px;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: .5rem!important;
+}
+
+.Left_container{
+display: flex;
+flex-direction: column;
+
+}
+.left_container{
+  padding: 1rem!important;
+}
+
+.container {
+/* padding: 13px 0 0 0; */
+
+}
+
+.name {
+color: white;
+}
+
+.hr {
+margin-left: 0.5rem ; /* 0.5rem */
+margin-right: 4.375rem; /* 4.375rem */
+color:white;
+}
+
+
+
+
+.email {
+color: white;
+}
+
+.phoneIcon {
+font-size: 12px;
+}
+
+
+.contactInfo {
+display: flex;
+gap: .8rem;
+padding: .3rem;
+margin-left: 1rem;
+
+}
+.skillsHeader  h3{
+  border-bottom:1px black solid ;
+}
+.skillsHeader {
+
+display: flex;
+flex-direction: column;
+gap: .5rem;
+}
+
+.skillsHeader h3{
+border-bottom: 1px rgb(0, 0, 0) solid;
+margin-left: 1rem;
+}
+.skillsHeader2 h3{
+  border-bottom: 1px rgb(0, 0, 0) solid;
+margin-left: 1rem;
+}
+.professionalSkillsHeader h3{
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  margin-left: 1rem;
+}
+
+.skillsHeader ul{
+list-style: none;
+padding: 0rem 2rem 0rem 1rem;
+
+}
+.skillsHeader ul li{
+display: flex;
+flex-direction: column;
+
+}
+.skillsHeader2{
+padding: 0!important;
+margin-top: 4.3rem!important;
+}
+.skillsHeader2 p{
+margin: 1rem;
+}
+.skillsHeader2 h2{
+display: flex;
+align-items: center;
+gap: .5rem;
+padding: .5rem 2rem;
+font-weight: 400;
+}
+.skillsHeader2 ul{
+margin-left: 1.5rem;
+}
+.professionalSkillsHeader ul{
+margin-left: 1.5rem;
+}
+
+.info_box{
+display: flex;
+flex-direction: column;
+gap: .5rem;
+padding: 0rem 2rem;
+}
+.info_box h3{
+margin-left: .5rem;
+}
+
+.educationHeader{
+padding: 1.5rem;
+}
+.objectiveHeader{
+padding: 1.5rem;
+height: 8rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: .5rem;
+margin-bottom: 1rem;
+margin-top: 3rem!important;
+}
+.workHeader{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: .5rem;
+}
+.skillsHeader2{
+padding: 1rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: .5rem;
+}
+.professionalSkillsHeader{
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 1rem;
+}
+.professionalSkillsHeader h2{
+display: flex;
+align-items: center;
+gap: .5rem;
+padding: .5rem 2rem;
+font-weight: 400;
+}
+.img_container{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.img_box{
+height: 16rem!important;
+width: 100%!important;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5rem!important;
+}
+.img_box img{
+height: 100%;
+width: 100%;
+border-radius: 0;
+}
+.person_name{
+font-size: 3rem;
+}
+.person_name span{
+color: black;
+}
+.company_name{
+display: flex;
+justify-content: space-between;
+color: black;
+}
+.work_des{
+display: flex;
+flex-direction: column;
+gap:.5rem ;
+padding: 0rem 1rem;
+}
+.img_container{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 10rem;
+}
+.skillsAndLevel{
+display: grid;
+grid-template-columns: 1fr 1fr ;
+gap: .5rem;
+padding: 1rem;
+}
+.skillsAndLevel li{
+
+overflow: hidden;
+}
+
+.skillsAndLevel li span{
+margin-left: 1rem;
+}
+
+.title_box{
+display: flex;
+width: 100%;
+background-color: white;
+}
+.title_box2{
+display: flex;
+width: 95%;
+align-items:center ;
+gap: .5rem;
+border-bottom: 1px rgb(8, 8, 8) solid;
+margin-left: 1rem;
+padding:0rem!important;
+
+}
+.title_box2 h3{
+margin:0rem;
+}
+.objectiveHeader h1,p{
+margin:0rem;
+}
+.edu_ul{
+flex-direction: column;
+display: flex;
+gap:.2rem;
+margin-top:-1rem;
+}
+.contact_Info{
+padding:0rem;
+}
+.ref_ul{
+margin-top:-1rem;
+}
+.ref_ul li h4{
+margin:0rem;
+}
+.work_des h4,h5,p{
+margin:0rem;
+}
+.work_ul{
+margin-top:-.3rem;
+margin-left:-.3rem!important;
+flex-direction: column;
+display: flex;
+gap:1rem;
+}
+.ProgressBar {
+background-color: orange;
+height:.2rem;
+width:10rem;
+}
+.skillsAndLevel{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:1rem;
+margin-top:-.8rem;
+
+}
+.skillsAndLevel li{
+text-align: left;
+}
+
+
+/* modal.module.css */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+}
+
+.closeButton {
+  background: #000000;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: white;
+
+}
+.closeButton:hover{
+  background: white;
+  color: black;
+}
+.download_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+.down_img_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  overflow: hidden;
+}
+.down_img_box img{
+  height: 100%;
+  width: 100%;
+}
+.icon_download{
+  height: 6rem;
+  width: 6rem;
+  text-align: center;
+}
+.icon_download:hover{
+  border: 1px rgb(0, 42, 255) solid;
+  border-radius: 5px ;
+}
+.icon_download img{
+  height: 100%;
+  width: 100%;
+}
+.down_btn_box{
+  display: flex;
+  justify-content: space-between;
+  height: 10rem;
+}
+.download_btn {
+  position: fixed;
+  margin-top: -2rem!important;
+}

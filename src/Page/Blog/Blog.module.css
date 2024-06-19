@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+.head{
+    height: 5rem;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bradcums{
+    display: flex;
+    height: 3rem;
+   align-items: center;
+   padding: 0rem 2rem;
+}
+.bradcums h4 span{
+    color: blue;
+}
+._box{
+    width: 100vw;
+    background-image: url(../../Component/Images/pattern.png);
+    background-size: cover;
+}
+.des_box{
+    padding: 4rem;
+}

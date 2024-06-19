@@ -1,0 +1,41 @@
+.crop_container{
+    height: 100%;
+    width: 100%; 
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 1rem;
+}
+.crop_container div{
+  height: 100%;
+  width: 100%;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    height: 100%;
+    width: 100%;
+    border: 1px rgb(172, 173, 172) solid;
+}
+.control{
+    bottom: 10%;
+}
+/* .cropped_image_container{
+    height: 5rem;
+    width: 5rem;
+  overflow: hidden;
+}
+.cropped_image_container img{
+    height: 100%;
+    width: 1005;
+} */
+.save{
+    position: absolute;
+    color: red;
+}

@@ -1,0 +1,200 @@
+
+.preview_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 16.7rem!important ;
+  width: 12rem!important;
+}
+.preview_template{
+  height: 100%!important ;
+  width: 100%!important;
+
+}
+.preview_template img{
+  height: 100%!important;
+  width: 100%!important;
+}
+
+.preview_btn {
+  position: absolute;
+  display: none!important;
+  height: 16.7rem!important ;
+  width: 12rem!important;
+ }
+ .preview_box:hover .preview_btn {
+    position: absolute;
+   color: white;
+    display: unset!important;
+    align-items: center!important;
+    justify-content: center!important;
+    backdrop-filter: brightness(30%);   
+    font-size: .9rem;
+    text-align: center;
+}
+.preview{
+  margin-top: 6rem;
+}
+
+  .template_card:hover{
+    border: 1px orange solid;
+  }
+  
+.resume_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    width: 52rem;
+    overflow: scroll;
+    border: 1px rgb(146, 145, 145) solid;
+}
+.resume_container::-webkit-scrollbar{
+    display: none;
+}
+.resume{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    /* border: 1px red solid; */
+}
+
+
+
+.Close_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1rem;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    border: none;
+    font-size: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    background: transparent;
+    background-color: transparent;
+}
+.Close_btn:hover{
+  background-color: black;
+  color: white;
+}
+.download_btn{
+    margin-top: .5rem;
+    position: absolute;
+    right: 5%;
+    width: 6rem;
+    border-radius: 5px;
+    border: none;
+    padding: .2rem;
+    height: 1.5rem;
+    font-size: .8rem;
+    background-color: rgb(88, 183, 255);
+     color: white;
+
+}
+.download_btn:hover{
+  background-color: white;
+  color: black;
+}
+.download_btn2{
+    margin-top: .5rem;
+    position: absolute;
+    right: 13%;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: .2rem;
+    font-size: .8rem;
+    background-color: rgb(88, 183, 255);
+    color: white;
+
+}
+.download_btn3{
+    margin-top: .5rem;
+    position: absolute;
+    right: 21%;
+    width: 6rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    padding: .2rem;
+    font-size: .8rem;
+    background-color: rgb(88, 183, 255);
+    color: white;
+
+}
+.download_btn2:hover{
+    background-color: white;
+    color: black;
+}
+.download_btn3:hover{
+    background-color: white;
+    color: black;
+}
+.tools_box{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    gap: .5rem;
+    overflow: hidden;
+    align-items: center;
+}
+.ColorPlate div{
+    width: 28rem;
+    font-size: .6rem;
+    height: 5rem;
+}
+.ColorPlate div div ul li{
+    height: 1rem;
+    width: 1rem;
+}
+.template_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 1rem;
+     padding: 2rem;
+     width: 28rem;
+     height: 20rem;
+     overflow-y: scroll;
+     margin-top: 1rem;
+  }
+  .template_box::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(3, 121, 255, 0.9);
+    border-radius: 10px;
+    background-color:rgba(3, 116, 255, 0.9);
+ 
+  }
+  
+  .template_box::-webkit-scrollbar {
+    width: .4rem;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .template_box::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(0deg, #f7ce76, #f27348);
+  }
+
+  .template_card{
+    height: 15rem;
+    width: 10rem;
+    overflow: hidden;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .template_card img{
+    height: 100%;
+    width:100%;
+  }
+  .template_card div img{
+    height: 1rem;
+    width: 1rem;
+  }

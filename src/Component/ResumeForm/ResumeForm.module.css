@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70%;
+    margin-top: 7rem!important;
+    gap: 1rem;
+}
+.container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem!important;
+    flex-direction: column;
+  border-radius: 15px;
+    gap: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: aliceblue;
+}
+.main{
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+
+}
+.main h1{
+    margin-top: 6rem;
+}
+.container div button{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    background-color: rgb(88, 183, 255);
+    color: white;
+}
+.container div button:hover{
+    background-color: white;
+    color: black;
+}
+@media (max-width:500px){
+    .container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        width: 70%;
+        margin-top: 4rem;
+        gap: 3rem;
+    }
+}

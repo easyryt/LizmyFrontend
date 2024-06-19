@@ -1,0 +1,107 @@
+.main{
+    height: max-content;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: none;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 6rem 2rem;
+    gap: 2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.heading_box{
+  text-align: center;
+}
+.heading_box h1,p{
+  margin: 0!important;
+}
+
+  .template_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+     padding: 2rem;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+     width: 100%;
+  }
+  .template_card{
+    height: 20rem;
+    width: 15rem;
+    overflow: hidden;
+     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
+  .template_card:hover{
+    border: 2px rgb(0, 238, 255) solid;
+  }
+
+  .template_card img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+  ._card{
+    height: 60%;
+    width: 100%;
+    font-size: .3rem;
+    
+  }
+  ._card img{
+    height: .8rem;
+  }
+  
+
+
+  .template_card{
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    }
+    @keyframes zoomIn {
+    0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+    }
+    50% {
+    opacity: 1;
+    }
+    } 
+    @media (max-width:500px){
+      .template_box{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 2rem;
+         padding: 2rem;
+         border: 1px rgb(173, 172, 172) solid;
+         width: 100%;
+      }
+      .container h1{
+        text-align: center;
+      }
+      .container p{
+        text-align: center;
+      }
+    }

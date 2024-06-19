@@ -1,0 +1,282 @@
+.main {
+    width: 850px;
+    height: 1130px;
+    background-color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.img_box {
+    height: 7rem;
+    width: 7rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.img_box img {
+    height: 100%;
+    width: 100%;
+}
+
+.left_section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 1rem; /* Reduced gap */
+    text-align: left;
+}
+
+
+
+.education {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Reduced gap */
+    padding: 1rem 1rem;
+}
+
+.img_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+    padding: 0rem 1rem;
+    height: 1100px;
+}
+
+.right_section p {
+    width: 95%!important;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: none;
+}
+
+.right_section ul li {
+    margin-left: 1.5rem;
+}
+
+.right_section ul li {
+    width: 95%!important;
+}
+
+.work_history {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.heading {
+    background-color: aliceblue;
+    padding: 3rem 1rem;
+}
+
+.certifications {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+}
+
+.skills {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+}
+
+.skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem; /* Reduced gap */
+}
+
+.professional_summary {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+}
+
+.work {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+}
+
+
+
+.info_box p {
+    display: flex;
+    gap: 0.25rem; /* Reduced gap */
+    align-items: center;
+}
+
+.certifications ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem; /* Reduced gap */
+}
+
+.header {
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem;
+    height:8rem;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem; /* Reduced gap */
+}
+
+.work_entry {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap:.5rem;
+}
+.work-info{
+  margin:0;
+  padding:0;
+}
+.work-info h4{
+  margin:0;
+}
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header h2,
+h5 {
+    margin: 0;
+}
+.certi-li h4,h5,p{
+  margin: 0;
+}
+.ul{
+  margin-top:-1rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.exp-ul{
+  margin-top:-1rem; 
+}
+.ul-certi{
+  margin-top:-2rem;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.education-entry h4,h5,p{
+  margin: 0;
+}
+.contact-entry h4,p{
+  margin: 0;
+}
+.contact-info{
+  display:flex;
+  flex-direction:column;
+  gap:.5rem;
+}
+.award-list h4,h5,p{
+  margin: 0;
+}
+.ul-skill{
+  margin-top:-1rem;
+  margin-left:-2.5rem;
+}
+
+/* modal.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .closeButton {
+    background: #000000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+
+  }
+  .closeButton:hover{
+    background: white;
+    color: black;
+  }
+  .download_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .down_img_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .down_img_box img{
+    height: 100%;
+    width: 100%;
+  }
+  .icon_download{
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+  }
+  .icon_download:hover{
+    border: 1px rgb(0, 42, 255) solid;
+    border-radius: 5px ;
+  }
+  .icon_download img{
+    height: 100%;
+    width: 100%;
+  }
+  .down_btn_box{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+  }
+  .download_btn {
+    position: fixed;
+    margin-top: -2rem!important;
+}

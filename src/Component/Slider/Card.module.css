@@ -1,0 +1,16 @@
+.main{
+    height: 30rem;
+    width: 23rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border: 1px rgb(181, 179, 179) solid;
+
+}
+.main div{
+    height: 100%;
+    width:100%;
+    font-size: .4rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

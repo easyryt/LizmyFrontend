@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.nav_Bar{
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+/* Style for the modal container */
+.otpModal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    z-index: 999!important;
+  }
+  
+  /* Style for the modal content */
+  .otpContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Style for the heading */
+  .otpContent h2 {
+    margin-top: 0;
+  }
+  
+  /* Style for the input field */
+  .otpContent input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for the buttons */
+  .otpContent button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px!important;
+  }
+  
+  /* Style for the Resend OTP button */
+  .otpContent button:nth-child(2) {
+    background-color: #2196f3; /* Blue */
+  }

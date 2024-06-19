@@ -1,0 +1,211 @@
+.main {
+    width: 850px;
+    height: 1130px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.heading{
+display: flex;
+justify-content: space-between;
+width: 52rem; 
+padding: 1rem ;
+}
+.heading div{
+width: 50%;
+overflow: hidden;
+}
+.summary h2{
+border-top: 1px  rgb(112, 111, 111) solid;
+border-bottom: 1px rgb(112, 111, 111) solid;
+width: 90%;
+}
+.para{
+width: 96%;
+}
+.summary {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Experience{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Experience h3{
+
+border-bottom: 1px rgb(112, 111, 111) solid;
+width: 96%;
+}
+.Experience ul{
+width: 90%;
+}
+.Skills h2{
+
+border-bottom: 1px rgb(112, 111, 111) solid;
+width: 96%;
+
+}
+.Skills {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.Skills ul{
+width: 90%;
+
+margin-top:-1rem;
+margin-left:-6rem;
+margin-left: -5rem!important; 
+}
+.Skills ul li{
+width: max-content;
+display: inline-table;
+padding: .5rem;
+margin: .5rem;
+border-radius: 5px;
+color: white!important;
+background-color: rgb(215, 168, 57);
+margin: 1rem!important;
+
+}
+
+.Education{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.Education h3{
+    border-bottom: 1px rgb(112, 111, 111) solid;
+    width: 96%;
+}
+
+.Education ul{
+width: 90%;
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap:.5rem;
+margin-left:-4rem;
+}
+.Educationul li{
+display: flex;
+flex-direction: column;
+}
+.contact_info{
+display: flex;
+flex-direction: column;
+text-align: right;
+}
+.description_box{
+padding: 1rem;
+}
+.contact_info {
+height: 6rem;
+display:flex;
+flex-direction:column;
+
+}
+.contact_info p{
+margin:.1rem;
+}
+.work_des p{
+margin:.1rem;
+}
+.work_des h5,h3{
+margin:.1rem;
+}
+.ul{
+display:flex;
+flex-direction:column;
+gap:.2rem;
+margin-left:-3rem!important;
+padding: 1rem 0rem!important;
+}
+
+.edu_des h5,h4,p{
+margin:.1rem;
+}
+.name h1,p{
+margin:.1rem;
+}
+
+
+/* modal.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+  }
+  
+  .closeButton {
+    background: #000000;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    color: white;
+
+  }
+  .closeButton:hover{
+    background: white;
+    color: black;
+  }
+  .download_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .down_img_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .down_img_box img{
+    height: 100%;
+    width: 100%;
+  }
+  .icon_download{
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+  }
+  .icon_download:hover{
+    border: 1px rgb(0, 42, 255) solid;
+    border-radius: 5px ;
+  }
+  .icon_download img{
+    height: 100%;
+    width: 100%;
+  }
+  .down_btn_box{
+    display: flex;
+    justify-content: space-between;
+    height: 10rem;
+  }
+  .download_btn {
+    position: fixed;
+    margin-top: -2rem!important;
+}

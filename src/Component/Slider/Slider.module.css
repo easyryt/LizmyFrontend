@@ -1,0 +1,21 @@
+.main{
+  width: 100%;
+  margin: 0;
+  padding: 2rem 1rem;
+  height: max-content;
+  background-color: white;
+  height: 28rem!important;
+}
+
+.item{
+  height: 25rem!important;
+  width: max-content;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.item img{
+  height: 100%;
+  width: 100%;
+  
+}

@@ -1,0 +1,14 @@
+.main{
+    height: 100%;
+    overflow: hidden;
+    overflow: scroll;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.edit_btn{
+    width: 3rem;
+    height: 2rem;
+}

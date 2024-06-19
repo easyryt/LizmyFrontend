@@ -1,0 +1,33 @@
+.colorplates_box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: space-evenly;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    height: 7rem;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .colorplates_box ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+  .colorplates_box ul li{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    list-style: none;
+    cursor: pointer;
+    transition: transform ease-in-out .5s;
+  }
+  .colorplates_box ul li:hover{
+    transform: scale(1.2)
+  }
+  .customColor_btn{
+    outline: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  }
